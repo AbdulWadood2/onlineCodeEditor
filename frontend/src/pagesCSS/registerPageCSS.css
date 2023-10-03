@@ -1,0 +1,35 @@
+/* container */
+.container {
+  background-color: red;
+  color: white;
+  height: 100vh;
+  align-items: center;
+}
+/* Message */
+.container >.Message{
+    text-align: center;
+    padding-top: 20vh;
+}
+/* container inputSubmitArea */
+.container > .inputSubmitArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30vh;
+}
+/* container input */
+.container > .inputSubmitArea > .input > input {
+  width: 300px;
+  height: 30px;
+}
+.container > .inputSubmitArea > .submit {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-left: 5px;
+}
+.container > .inputSubmitArea > .submit:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}

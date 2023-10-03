@@ -1,0 +1,19 @@
+/* contain */
+.contain{
+    display: flex;
+    justify-content: space-around;
+}
+.contain>div{
+  background-color: black;
+  color: white;
+  padding: 3px 10px;
+}
+.contain>div:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+#active{
+  background-color: blue;
+  color: white;
+}
